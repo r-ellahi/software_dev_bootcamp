@@ -64,3 +64,20 @@ def dice_roll(n):
     return occurrence
         
 print(dice_roll(1))
+
+from turtle import Turtle 
+tina = Turtle()
+
+def draw_circle(name, r, color, x, y):
+    name.penup()
+    name.goto(x, y)
+    name.dot(r * 2)
+    name.color(color)
+    
+
+draw_circle(tina, 20, "pink", 20, 20)
+#First line of code ^ prints as black on  console - not sure if its an issue with console or code
+# remainder of code prints in colours listed except for last line 
+draw_circle(tina, 40, "orange", -100, -100)
+draw_circle(tina, 60, "yellow", -200, -200)
+draw_circle(tina, 40, "lime", 250, 200)
