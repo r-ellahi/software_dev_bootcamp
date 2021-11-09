@@ -65,13 +65,14 @@ def dice_roll(n):
         
 print(dice_roll(1))
 
+# TURTLE 1
 from turtle import Turtle 
 tina = Turtle()
 
 def draw_circle(name, r, color, x, y):
     name.penup()
     name.goto(x, y)
-    name.dot(r * 2)
+    name.dot(2 * r)
     name.color(color)
     
 
@@ -81,3 +82,29 @@ draw_circle(tina, 20, "pink", 20, 20)
 draw_circle(tina, 40, "orange", -100, -100)
 draw_circle(tina, 60, "yellow", -200, -200)
 draw_circle(tina, 40, "lime", 250, 200)
+
+
+
+#TURTLE 2
+from turtle import Turtle 
+tina = Turtle()
+
+def circle_area(r):
+    return 3.14 * r * r
+
+def circle_circumference(r):
+    return 2 * 3.14 * r 
+    
+
+def draw_circle(name, r, color):
+    name.color(color)
+    name.dot(2 * r)
+    
+    name.color("black")
+    name.goto(0,5)
+    name.write("area: " + str(circle_area(r)), align="center")
+    name.goto(0, -5)
+    name.write("circ: " + str(circle_circumference(r)))
+    name.hideturtle()
+
+draw_circle(tina, 100, "blue")
