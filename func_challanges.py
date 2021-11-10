@@ -39,3 +39,12 @@ def nursery_rhyme():
         print("Sorry, that selection is invalid, please try again")
         
 nursery_rhyme()
+
+# Challenge 2: Create a function with one parameter, name, which will be the name of a person. 
+# The function should then “sing” Happy Birthday to that person, inserting their name at the correct point. 
+# Give your function a sensible name.
+
+
+# Challenge 3: Can you make a function which generates a random password of any length? 
+# the function should accept one parameter, the desired password length, and return a password. 
+# You may find it useful to import the choice function from the random module.
