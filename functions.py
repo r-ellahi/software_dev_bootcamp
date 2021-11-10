@@ -108,3 +108,37 @@ def draw_circle(name, r, color):
     name.hideturtle()
 
 draw_circle(tina, 100, "blue")
+
+
+import turtle
+
+def cross():
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.left(90)
+
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.left(90)
+    
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.left(90)
+    
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.left(90)
+
+cross()
