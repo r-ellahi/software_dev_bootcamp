@@ -142,3 +142,27 @@ def cross():
     turtle.left(90)
 
 cross()
+
+def tip(total, percentage):
+    new_total = total / 100
+    return (new_total * percentage)
+
+print(tip(100, 25))
+
+def dog_years(name, age):
+  return (name + " you are " + str(age *7) + " years old in dog years")
+
+print(dog_years("eggs", 3))
+
+
+def lots_of_math(a, b, c, d):
+    first = a + b
+    second = c - d
+    third = first * second
+    fourth = third % a
+    print(first)
+    print(second)
+    print(third)
+    return fourth
+
+print(lots_of_math(1, 2, 3, 4))
